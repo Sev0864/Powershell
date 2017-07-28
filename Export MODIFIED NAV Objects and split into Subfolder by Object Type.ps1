@@ -1,6 +1,6 @@
 ﻿# Variables
 $databaseserver = 'localhost';
-$GitFolder = 'C:\Git\nicbartie\Lincza\OAKVALLEY';
+$GitFolder = 'C:\Git\Wesley';
 $GitFolderWorkingObjectTextFile = $GitFolder + '\Objects.txt';
 $NAVVersion = '100';
 $NAVFolderVersion = 'NAVW110.0';
