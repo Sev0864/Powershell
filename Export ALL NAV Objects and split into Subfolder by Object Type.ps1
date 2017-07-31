@@ -40,7 +40,3 @@ Export-NAVApplicationObject $GitFolderWorkingObjectTextFile -DatabaseName $Datab
 Export-NAVApplicationObject $GitFolderWorkingObjectTextFile -DatabaseName $Database -Filter "Type=MenuSuite" -ExportTxtSkipUnlicensed -force | Split-NAVApplicationObjectFile -Destination $MenusuitesFolder -Force
 
 # Cleanup
-DEL $GitFolderWorkingObjectTextFile 
-
-#This is a test
-#this is a test 2
