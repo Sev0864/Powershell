@@ -41,3 +41,5 @@ Export-NAVApplicationObject $GitFolderWorkingObjectTextFile -DatabaseName $Datab
 
 # Cleanup
 DEL $GitFolderWorkingObjectTextFile 
+
+#This is a test
