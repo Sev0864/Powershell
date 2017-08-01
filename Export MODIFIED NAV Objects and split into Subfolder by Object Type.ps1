@@ -5,7 +5,7 @@ $GitFolderWorkingObjectTextFile = $GitFolder + '\Objects.txt';
 $NAVVersion = '100';
 $NAVFolderVersion = 'NAVW110.0';
 $Database = 'Demo Database NAV (10-0)';
-#$NAVServer = 'DynamicsNAV100';
+#$NAVServer = 'DynamicsNAV100';  and edit
 
 # General Variables
 $TablesFolder = $GitFolder + '\' + $NAVFolderVersion + '\Tables';
@@ -17,7 +17,7 @@ $MenusuitesFolder = $GitFolder + '\' + $NAVFolderVersion + '\MenuSuites';
 $XMLPortFolder = $GitFolder + '\' + $NAVFolderVersion +'\XMLPorts';
 $NAVPowershellModuleFolder = ${env:ProgramFiles(x86)} + '\Microsoft Dynamics NAV\' + $NAVVersion + '\RoleTailored Client\Microsoft.Dynamics.Nav.Model.Tools.psd1'
 
-# Set Permissions
+# Set Permissions...
 #Set-ExecutionPolicy "RemoteSigned" -Scope Process -Force
 
 # Create missing paths
