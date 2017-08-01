@@ -13,7 +13,7 @@ $MenusuitesFolder = $GitFolder + '\' + $NAVFolderVersion + '\MenuSuites';
 $XMLPortFolder = $GitFolder + '\' + $NAVFolderVersion +'\XMLPorts';
 $NAVPowershellModuleFolder = ${env:ProgramFiles(x86)} + '\Microsoft Dynamics NAV\' + $NAVVersion + '\RoleTailored Client\Microsoft.Dynamics.Nav.Model.Tools.psd1'
 $Database = 'Demo Database NAV (10-0)';
-#$NAVServer = 'DynamicsNAV100';
+$NAVServer = 'DynamicsNAV100';
 
 # Set Permissions
 #Set-ExecutionPolicy "RemoteSigned" -Scope Process -Force
@@ -40,3 +40,4 @@ Export-NAVApplicationObject $GitFolderWorkingObjectTextFile -DatabaseName $Datab
 Export-NAVApplicationObject $GitFolderWorkingObjectTextFile -DatabaseName $Database -Filter "Type=MenuSuite" -ExportTxtSkipUnlicensed -force | Split-NAVApplicationObjectFile -Destination $MenusuitesFolder -Force
 
 # Cleanup
+# stop
